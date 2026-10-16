@@ -219,11 +219,11 @@ burn-wgpu = { path = "crates/burn-wgpu", version = "0.22.0", default-features = 
 pytorch-reader = { path = "crates/pytorch-reader", version = "0.22.0" }
 
 ### For the main burn branch. ###
-cubecl = { git = "https://github.com/tracel-ai/cubecl", default-features = false, rev = "68ebac9abaeb7101e16f295a33904e768673a9f4" }
-cubecl-common = { git = "https://github.com/tracel-ai/cubecl", default-features = false, rev = "68ebac9abaeb7101e16f295a33904e768673a9f4" }
-cubecl-environment = { git = "https://github.com/tracel-ai/cubecl", default-features = false, rev = "68ebac9abaeb7101e16f295a33904e768673a9f4" }
-cubecl-zspace = { git = "https://github.com/tracel-ai/cubecl", default-features = false, rev = "68ebac9abaeb7101e16f295a33904e768673a9f4" }
-cubek = { git = "https://github.com/tracel-ai/cubek", default-features = false, rev = "31abf85bcd37bb10c6c925dbc370ecfc2ca49642" }
+cubecl = { git = "https://github.com/Zagitta/cubecl", default-features = false, rev = "e0bde66197cf27003f95cfc97ddc29d229b5e7f7" }
+cubecl-common = { git = "https://github.com/Zagitta/cubecl", default-features = false, rev = "e0bde66197cf27003f95cfc97ddc29d229b5e7f7" }
+cubecl-environment = { git = "https://github.com/Zagitta/cubecl", default-features = false, rev = "e0bde66197cf27003f95cfc97ddc29d229b5e7f7" }
+cubecl-zspace = { git = "https://github.com/Zagitta/cubecl", default-features = false, rev = "e0bde66197cf27003f95cfc97ddc29d229b5e7f7" }
+cubek = { git = "https://github.com/Zagitta/cubek", default-features = false, rev = "004aaadedf57fdd5c0995b3099eba23483bdddbe" }
 ### For local development. ###
 # cubecl = { path = "../cubecl/crates/cubecl", default-features = false }
 # cubecl-common = { path = "../cubecl/crates/cubecl-common", default-features = false }
